@@ -17,12 +17,12 @@ https://packagist.org/packages/steve.mcnabb/ised_essentials
 
 Or, on one line (cut and paste this into your terminal):
 
-git clone https://github.com/stevemcnabb/ised_essentials_docker.git && /
-mv ised_essentials_docker/docker-compose.yml . && /
-mv ised_essentials_docker/dockerfiles ./dockerfiles && /
-rm -rf ised_essentials_docker && /
-cp env.example .env && / 
-echo open the .env file in your editor and edit as required for your environment
-echo then run:
-echo docker-compose up -d
+git clone https://github.com/stevemcnabb/ised_essentials_docker.git && 
+mv ised_essentials_docker/docker-compose.yml . && 
+mv ised_essentials_docker/dockerfiles ./dockerfiles && 
+rm -rf ised_essentials_docker && 
+cp env.example .env
+
+
+
 
