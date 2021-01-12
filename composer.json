@@ -1,7 +1,7 @@
 {
     "name": "stevemcnabb/ised_essentials_docker",
     "description": "EXPERIMENTAL: docker environment for working with ised_essentials",
-    "type": "project",
+    "type": "ised-docker-development-environment",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
@@ -10,5 +10,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": { }
 }
