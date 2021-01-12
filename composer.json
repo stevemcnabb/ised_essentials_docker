@@ -1,0 +1,14 @@
+{
+    "name": "stevemcnabb/ised_essentials_docker",
+    "description": "EXPERIMENTAL: docker environment for working with ised_essentials",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Steve McNabb",
+            "email": "steve.mcnabb@canada.ca"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
