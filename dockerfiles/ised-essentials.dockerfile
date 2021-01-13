@@ -8,6 +8,7 @@ COPY composer.* ./
 # disable mem limits temporarily 
 USER root
 RUN echo 'memory_limit = -1' >> /etc/php.ini
+RUN chown default composer.lock
 USER 1001
 
 RUN composer install
