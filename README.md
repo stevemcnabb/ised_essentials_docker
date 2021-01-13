@@ -7,7 +7,7 @@ https://packagist.org/packages/steve.mcnabb/ised_essentials
 
 
 ## Use
-1) git clone https://github.com/stevemcnabb/ised_essentials_docker.git
+1) cd my_project && git clone https://github.com/stevemcnabb/ised_essentials_docker.git
 2) mv ised_essentials_docker/docker-compose.yml . 
 3) mv ised_essentials_docker/dockerfiles ./dockerfiles
 4) rm -rf ised_essentials_docker
@@ -15,9 +15,9 @@ https://packagist.org/packages/steve.mcnabb/ised_essentials
 6) open the .env file in your editor and edit as required for your environment
 7) docker-compose up -d
 
-Or, on one line (cut and paste this into your terminal):
+Or, on one line (cut and paste this into your terminal and replace my_project with your project name):
 
-git clone https://github.com/stevemcnabb/ised_essentials_docker.git && 
+cd my_project && git clone https://github.com/stevemcnabb/ised_essentials_docker.git && 
 mv ised_essentials_docker/docker-compose.yml . && 
 mv ised_essentials_docker/dockerfiles ./dockerfiles && 
 rm -rf ised_essentials_docker && 
