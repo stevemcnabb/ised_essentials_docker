@@ -20,8 +20,8 @@ Or, on one line (cut and paste this into your terminal in your project directory
 git clone https://github.com/stevemcnabb/ised_essentials_docker.git && 
 mv ised_essentials_docker/docker-compose.yml . && 
 mv ised_essentials_docker/dockerfiles ./dockerfiles && 
-cp env.example .env
 rm -rf ised_essentials_docker && 
+cp env.example .env
 
 
 
